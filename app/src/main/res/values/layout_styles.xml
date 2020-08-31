@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="match_match">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="match_wrap">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="wrap_match">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+
+    <style name="match_wrap_v" parent="match_wrap">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="wrap_wrap">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="btn_change" parent="wrap_wrap">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_height">@dimen/dp_48</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">@dimen/dp_24</item>
+        <item name="android:layout_marginRight">@dimen/dp_24</item>
+        <item name="android:paddingLeft">@dimen/dp_16</item>
+        <item name="android:paddingRight">@dimen/dp_16</item>
+        <item name="android:paddingTop">@dimen/dp_8</item>
+        <item name="android:paddingBottom">@dimen/dp_8</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:hint">提交</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_bg_rect_app_blue</item>
+    </style>
+
+    <style name="view_line_h">
+        <item name="android:layout_width">@dimen/w_0.5</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/vertical_line_color</item>
+    </style>
+
+    <style name="view_line_v">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/w_0.5</item>
+        <item name="android:background">@color/vertical_line_color</item>
+    </style>
+
+    <style name="mine_top_sub_title" parent="match_match">
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginLeft">@dimen/dp_4</item>
+        <item name="android:layout_marginTop">@dimen/dp_4</item>
+    </style>
+
+</resources>

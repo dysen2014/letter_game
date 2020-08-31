@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/match_match"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<com.dysen.games.widgets.TitleLayout
+    style="@style/match_wrap"/>
+
+    <TextView
+        android:id="@+id/tv_1"
+        style="@style/match_wrap"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:accessibilityPaneTitle="@string/app_name"
+        android:hint="分组1" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcl_1"
+        style="@style/match_wrap"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tv_2"
+        style="@style/match_wrap"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:accessibilityPaneTitle="@string/app_name"
+        android:hint="分组2" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcl_2"
+        style="@style/match_wrap"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tv_3"
+        style="@style/match_wrap"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:accessibilityPaneTitle="@string/app_name"
+        android:hint="分组3" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcl_3"
+        style="@style/match_wrap"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        style="@style/match_wrap"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_a"
+            style="@style/wrap_match"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:accessibilityPaneTitle="@string/app_name"
+            android:hint="选手A" />
+
+        <TextView
+            android:id="@+id/tv_b"
+            style="@style/wrap_match"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="选手B" />
+    </LinearLayout>
+
+    <include layout="@layout/layout_common_line"/>
+    <LinearLayout
+        style="@style/match_wrap"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcl_a"
+            style="@style/wrap_match"
+            android:layout_weight="1"
+            android:accessibilityPaneTitle="@string/app_name" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcl_b"
+            style="@style/wrap_match"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <include layout="@layout/layout_common_line"/>
+
+    <LinearLayout
+        style="@style/match_wrap"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        >
+    <Button
+        android:id="@+id/btn_submit"
+        style="@style/wrap_wrap"
+        android:layout_gravity="center_horizontal"
+        android:hint="选好了" />
+    <Button
+        android:id="@+id/btn_reset"
+        style="@style/wrap_wrap"
+        android:layout_gravity="center_horizontal"
+        android:hint="再来一局" />
+    </LinearLayout>
+</LinearLayout>

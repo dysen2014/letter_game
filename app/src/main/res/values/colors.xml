@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="appBlue">#03A9F4</color>
+    <color name="appRed">#FF5151</color>
+    <color name="appYellow">#F8CC44</color>
+    <color name="appGreen">#5AD4B9</color>
+
+
+    <color name="white">#ffffff</color>
+    <color name="blue">#4CB4DC</color>
+    <!--竖分割线-->
+    <color name="vertical_line_color">#D5D5D5</color>
+    <color name="hoz_line_color">#f3f3f3</color>
+
+    <!--文本颜色-->
+    <color name="text_color_gray">#999999</color>
+    <color name="text_color_black">#3a3a3a</color>
+    <color name="text_color_black2">#5D5D5D</color>
+    <color name="text_color_white">#ffffff</color>
+    <color name="text_color_red">#ff0000</color>
+
+</resources>

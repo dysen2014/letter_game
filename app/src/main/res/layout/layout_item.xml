@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/wrap_wrap"
+    android:padding="@dimen/dp_8">
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/tv_user_black2_14"
+        tools:ignore="MissingConstraints"
+        android:textSize="@dimen/sp_24"
+        android:gravity="center"
+        android:hint="item"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
